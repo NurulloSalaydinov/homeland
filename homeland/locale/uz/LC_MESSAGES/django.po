@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-05 19:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\homeland\settings.py:124
+msgid "English"
+msgstr ""
+
+#: .\homeland\settings.py:125
+msgid "Russian"
+msgstr ""
+
+#: .\homeland\settings.py:126
+msgid "Uzbek"
+msgstr ""
+
+#: .\templates\index.html:5
+msgid "Home Page"
+msgstr "Bosh sahifa"
+
+#: .\templates\index.html:22
+msgid "See Details"
+msgstr "Tafsilotlarga ko'rish"
+
+#: .\templates\index.html:33
+msgid "Popular destinations"
+msgstr "Mashxur yo'nalishlar"
+
+#: .\templates\index.html:90 .\templates\wrapper.html:123
+msgid "About Us"
+msgstr "Biz haqimizda"
+
+#: .\templates\index.html:93
+msgid ""
+"Osiyo Travel team offers its services for citizens and guests of our country "
+"to travel around the world and Uzbekistan."
+msgstr ""
+"Osiyo Travel jamoasi mamlakatimiz fuqarolari va mehmonlari uchun o'z xizmatlarini taklif etadi"
+"Dunyo va O'zbekiston bo'ylab sayohat qilish."
+
+#: .\templates\index.html:105 .\templates\property-details.html:99
+msgid "Photogalleries"
+msgstr "Fotogalereyalar"
+
+#: .\templates\index.html:124
+msgid "Contact Us"
+msgstr "Biz bilan bog'lanish"
+
+#: .\templates\index.html:145
+msgid "Full Name"
+msgstr "To'liq ism"
+
+#: .\templates\index.html:151 .\templates\property-details.html:83
+msgid "Email"
+msgstr "Elektron pochta"
+
+#: .\templates\index.html:157
+msgid "Message"
+msgstr "Xabar"
+
+#: .\templates\index.html:164 .\templates\property-details.html:91
+msgid "Send Message"
+msgstr "Xabar jo'natish"
+
+#: .\templates\index.html:174
+msgid "Contact Info"
+msgstr "Aloqa ma'lumotlari"
+
+#: .\templates\index.html:175
+msgid "Address"
+msgstr "Manzil"
+
+#: .\templates\index.html:176
+msgid "Andijon province, Andijon city, Obod MFY, Oqrabot street, 51,"
+msgstr "Andijon viloyati, Andijon shahri, Obod MFY, Oqrabot ko‘chasi, 51-uy"
+
+#: .\templates\index.html:178 .\templates\property-details.html:87
+msgid "Phone"
+msgstr "Telefon raqam"
+
+#: .\templates\index.html:181
+msgid "Email Address"
+msgstr "E-pochta manzili"
+
+#: .\templates\property-details.html:67
+msgid "More Info"
+msgstr "Batafsil ma'lumot"
+
+#: .\templates\property-details.html:76
+msgid "Contact Agent"
+msgstr "Agent bilan bog'lanish"
+
+#: .\templates\property-details.html:79
+msgid "Name"
+msgstr "Ism"
+
+#: .\templates\wrapper.html:7
+msgid "Osiyo Travel"
+msgstr "Osiyo Travel"
+
+#: .\templates\wrapper.html:62 .\templates\wrapper.html:117
+msgid "Home"
+msgstr ""
+
+#: .\templates\wrapper.html:64 .\templates\wrapper.html:118
+msgid "Tours"
+msgstr ""
+
+#: .\templates\wrapper.html:65
+msgid "About"
+msgstr ""
+
+#: .\templates\wrapper.html:66 .\templates\wrapper.html:124
+msgid "Contact"
+msgstr ""
+
+#: .\templates\wrapper.html:99
+msgid "About Asia Travel"
+msgstr ""
+
+#: .\templates\wrapper.html:101
+msgid ""
+"\n"
+"                                Azia Travel team offers its services for "
+"citizens and guests of our country to travel around the world and "
+"Uzbekistan.\n"
+"                            "
+msgstr ""
+"\n"
+"Osiyo Travel jamoasi yurtimiz fuqorolari va mexmonlari dunyo va O'zbekiston bo'ylab sayoxatlar amalga oshirishlari"
+"uchun o'z xizmatlarini taklif qiladi"
+
+#: .\templates\wrapper.html:113
+msgid "Navigations"
+msgstr ""
+
+#: .\templates\wrapper.html:133
+msgid "Follow Us"
+msgstr ""

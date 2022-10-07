@@ -1,0 +1,166 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>{% block title %}{% endblock %} {% trans 'Osiyo Travel' %}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500">
+        <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+        <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
+        <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css' %}">
+        <link rel="stylesheet" href="{% static 'css/mediaelementplayer.css' %}">
+        <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+        <link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %}">
+        <link rel="stylesheet" href="{% static 'css/fl-bigmug-line.css' %}">
+
+
+        <link rel="stylesheet" href="{% static 'css/aos.css' %}">
+
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    </head>
+
+    <body>
+        <div class="site-loader"></div>
+
+        <div class="site-wrap">
+
+            <div class="site-mobile-menu">
+                <div class="site-mobile-menu-header">
+                    <div class="site-mobile-menu-close mt-3">
+                        <span class="icon-close2 js-menu-toggle"></span>
+                    </div>
+                </div>
+                <div class="site-mobile-menu-body"></div>
+            </div> <!-- .site-mobile-menu -->
+
+            <div class="site-navbar mt-4">
+                <div class="container py-1">
+                    <div class="row align-items-center">
+                        <div class="col-8 col-md-8 col-lg-4">
+                            <img src="{% static 'images/logo.png' %}" alt="Logo" width="100px">
+                        </div>
+                        <div class="col-4 col-md-4 col-lg-8">
+                            <nav class="site-navigation text-right text-md-right" role="navigation">
+
+                                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#"
+                                        class="site-menu-toggle js-menu-toggle text-white"><span
+                                            class="icon-menu h3"></span></a></div>
+
+                                <ul class="site-menu js-clone-nav d-none d-lg-block">
+                                    <li class="active">
+                                        <a href="/">{% trans 'Home' %}</a>
+                                    </li>
+                                    <li><a href="/#tours">{% trans 'Tours' %}</a></li>
+                                    <li><a href="/#aboutus">{% trans 'About' %}</a></li>
+                                    <li><a href="/#contact">{% trans 'Contact' %}</a></li>
+                                    <li>
+                                        <form class="form-group" action="{% url 'set_language' %}" method="post">
+                                            {% csrf_token %}
+                                                <select class="form-control" name="language" onchange="this.parentElement.submit()">
+                                                    {% get_current_language as LANGUAGE_CODE %}
+                                                    {% get_available_languages as LANGUAGES %}
+                                                    {% get_language_info_list for LANGUAGES as languages %}
+                                                    {% for language in languages %}
+                                                    <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %} selected {% endif %}>
+                                                        {{ language.name_local }} ({{ language.code }})
+                                                    </option>
+                                                    {% endfor %}
+                                                </select>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% block content %}
+        {% endblock content %}
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="mb-5">
+                            <h3 class="footer-heading mb-4">{% trans 'About Asia Travel' %}</h3>
+                            <p>
+                            {% blocktrans %}
+                                Azia Travel team offers its services for citizens and guests of our country to travel around the world and Uzbekistan.
+                            {% endblocktrans %}
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="row mb-5">
+                            <div class="col-md-12">
+                                <h3 class="footer-heading mb-4">{% trans 'Navigations' %}</h3>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a href="/">{% trans 'Home' %}</a></li>
+                                    <li><a href="/#tours">{% trans 'Tours' %}</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a href="/#aboutus">{% trans 'About Us' %}</a></li>
+                                    <li><a href="/#contact">{% trans 'Contact' %}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="footer-heading mb-4">{% trans 'Follow Us' %}</h3>
+
+                        <div>
+                            <a href="https://www.facebook.com/osiyotravel" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                            <a href="https://t.me/osiyotravel" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
+                            <a href="https://www.instagram.com/osiyotravel" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                            <a href="https://www.youtube.com/channel/UCYHQFSwrSSBx6IBnYPno9nw" class="pl-3 pr-3"><span class="icon-youtube"></span></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        </div>
+
+        <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+        <script src="{% static '/js/jquery-migrate-3.0.1.min.js' %}"></script>
+        <script src="{% static 'js/jquery-ui.js' %}"></script>
+        <script src="{% static 'js/popper.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+        <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+        <script src="{% static 'js/jquery.countdown.min.js' %}"></script>
+        <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap-datepicker.min.js' %}"></script>
+        <script src="{% static 'js/aos.js' %}"></script>
+
+        <script src="{% static 'js/main.js' %}"></script>
+
+    </body>
+
+</html>

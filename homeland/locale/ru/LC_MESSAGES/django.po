@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-05 19:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\homeland\settings.py:124
+msgid "English"
+msgstr ""
+
+#: .\homeland\settings.py:125
+msgid "Russian"
+msgstr ""
+
+#: .\homeland\settings.py:126
+msgid "Uzbek"
+msgstr ""
+
+#: .\templates\index.html:5
+msgid "Home Page"
+msgstr "ГЛАВНАЯ"
+
+#: .\templates\index.html:22
+msgid "See Details"
+msgstr "Смотрите подробности"
+
+#: .\templates\index.html:33
+msgid "Popular destinations"
+msgstr "Популярные направления"
+
+#: .\templates\index.html:90 .\templates\wrapper.html:123
+msgid "About Us"
+msgstr "О нас"
+
+#: .\templates\index.html:93
+msgid ""
+"Azia Travel team offers its services for citizens and guests of our country "
+"to travel around the world and Uzbekistan."
+msgstr ""
+"Команда Azia Travel предлагает свои услуги для граждан и гостей нашей страны"
+"поездить по миру и Узбекистану."
+
+#: .\templates\index.html:105 .\templates\property-details.html:99
+msgid "Photogalleries"
+msgstr "Фотогалереи"
+
+#: .\templates\index.html:124
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: .\templates\index.html:145
+msgid "Full Name"
+msgstr "ФИО"
+
+#: .\templates\index.html:151 .\templates\property-details.html:83
+msgid "Email"
+msgstr "Эл. адрес"
+
+#: .\templates\index.html:157
+msgid "Message"
+msgstr "Сообщение"
+
+#: .\templates\index.html:164 .\templates\property-details.html:91
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: .\templates\index.html:174
+msgid "Contact Info"
+msgstr "Контактная информация"
+
+#: .\templates\index.html:175
+msgid "Address"
+msgstr "Адрес"
+
+#: .\templates\index.html:176
+msgid "Andijon province, Andijon city, Obod MFY, Oqrabot street, 51,"
+msgstr "Андижанская область, город Андижан, Ободский МФУ, улица Оработ, 51"
+
+#: .\templates\index.html:178 .\templates\property-details.html:87
+msgid "Phone"
+msgstr "Телефон"
+
+#: .\templates\index.html:181
+msgid "Email Address"
+msgstr "Адрес электронной почты"
+
+#: .\templates\property-details.html:67
+msgid "More Info"
+msgstr "Больше информации"
+
+#: .\templates\property-details.html:76
+msgid "Contact Agent"
+msgstr "Связаться с агентом"
+
+#: .\templates\property-details.html:79
+msgid "Name"
+msgstr "Имя"
+
+#: .\templates\wrapper.html:7
+msgid "Osiyo Travel"
+msgstr "Путешествие по Азии"
+
+#: .\templates\wrapper.html:62 .\templates\wrapper.html:117
+msgid "Home"
+msgstr "ГЛАВНАЯ"
+
+#: .\templates\wrapper.html:64 .\templates\wrapper.html:118
+msgid "Tours"
+msgstr "Экскурсии"
+
+#: .\templates\wrapper.html:65
+msgid "About"
+msgstr "О НАС"
+
+#: .\templates\wrapper.html:66 .\templates\wrapper.html:124
+msgid "Contact"
+msgstr "Контакт"
+
+#: .\templates\wrapper.html:99
+msgid "About Asia Travel"
+msgstr "О Азии Путешествие"
+
+#: .\templates\wrapper.html:101
+msgid ""
+"\n"
+"                                Azia Travel team offers its services for "
+"citizens and guests of our country to travel around the world and "
+"Uzbekistan.\n"
+"                            "
+msgstr ""
+"\n"
+"Команда Azia Travel предлагает свои услуги для граждан и гостей нашей страны в"
+"путешествии по миру и Узбекистану."
+
+#: .\templates\wrapper.html:113
+msgid "Navigations"
+msgstr "Навигации"
+
+#: .\templates\wrapper.html:133
+msgid "Follow Us"
+msgstr "Подписывайтесь на нас"
